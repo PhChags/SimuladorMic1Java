@@ -2,6 +2,7 @@ package mic.simulador.backend;
 
 import java.util.Map;
 
+// não conseguimos implementar o uso dessa função como gostariamos, além de como está sendo utilizada atualmente pretendiamos utiliza-la na parte gráfica
 public class Interpretador {
     // Mapa contendo as instruções suportadas e seus códigos de operação correspondentes
     private final Map<String, String> supportedInstructions;

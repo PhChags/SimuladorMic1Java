@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+// não conseguimos implementar o uso dessa função como gostariamos, além de como está sendo utilizada atualmente pretendiamos utiliza-la na parte gráfica
 public class LeitorArquivos {
     // Singleton para gerenciar recursos observáveis
     private static final ObservableResourceFactory resourceFactory = ObservableResourceFactory.getInstance();
